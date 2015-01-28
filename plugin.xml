@@ -1,0 +1,15 @@
+<library path="src">
+  <class name="MapTopo" type="rqt_map_topo.map_topo.MapTopo" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      An Python GUI plugin to define semantic places using a grid map.
+    </description>
+    <qtgui>
+      <group>
+        <label>Visualization</label>
+      </group>
+      <label>MapTopo</label>
+      <icon type="theme">system-help</icon>
+      <statustip>An Python GUI plugin to define semantic places using a grid map.</statustip>
+    </qtgui>
+  </class>
+</library>
